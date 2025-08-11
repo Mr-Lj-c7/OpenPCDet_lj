@@ -1,0 +1,5 @@
+llvmlite
+numba
+tensorboardX
+pyyaml
+opencv-python
