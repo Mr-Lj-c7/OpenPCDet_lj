@@ -1,0 +1,50 @@
+# .gitignore
+# IDE配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 构建目录
+build/
+cmake-build-*/
+
+# CMake缓存和生成文件
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake.in
+
+# 编译产物
+*.o
+*.so
+*.so.*
+*.so.*.*
+*.a
+*.a.*
+*.dylib
+*.dylib.*
+*.dll
+*.dll.*
+*.dll.*.*
+*.exe
+*.lib
+*.lib.*
+*.pyc
+*.pyo
+*.swp
+*.bak
+*.tmp
+*.bak
+*.log
+*.out
+*.csv
+
+# 依赖文件
+*.d
+
+# 系统文件
+.DS_Store
+Thumbs.db
